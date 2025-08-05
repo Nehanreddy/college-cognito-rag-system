@@ -1,0 +1,17 @@
+{
+  "embedding_model_dimension": 768,
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "min_chunk_size": 100,
+  "num_documents": 96,
+  "processing_method": "robust_semantic_chunking",
+  "document_stats": {
+    "total_chunks": 96,
+    "avg_chunk_size": 747.3958333333334,
+    "chunk_size_stats": {
+      "min": 151,
+      "max": 1466,
+      "std": 275.79458989612584
+    }
+  }
+}

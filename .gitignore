@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+.env
+
+# Node.js (if any frontend contains React/Vite)
+node_modules/
+dist/
+.build/
+*.lock
+
+# FAISS index and binary files
+*.index
+
+# VSCode & system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Compiled/temporary files
+*.tmp
+*.bak
+*.swp
+*.cache
+
+# IDE folders
+.idea/
