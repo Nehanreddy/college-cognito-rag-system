@@ -11,7 +11,7 @@ from groq import Groq
 # CONFIGURATION - UPDATE YOUR API KEY HERE
 # ==========================================
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")# Replace with your actual Groq API key
+#GROQ_API_KEY = os.getenv("GROQ_API_KEY")# Replace with your actual Groq API key
 INDEX_DIRECTORY = "college_rag_index"     # Directory containing the FAISS index
 EMBEDDING_MODEL = "all-mpnet-base-v2"     # Embedding model name
 
