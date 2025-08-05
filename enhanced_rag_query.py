@@ -12,7 +12,7 @@ import re
 # ==========================================
 # CONFIGURATION - SET YOUR API KEY HERE
 # ==========================================
- # Replace with your actual API key keep here
+
 INDEX_DIRECTORY = "college_rag_index"
 EMBEDDING_MODEL = "all-mpnet-base-v2"
 
