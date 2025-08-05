@@ -9,10 +9,16 @@ from groq import Groq
 from collections import defaultdict
 import re
 
-# ==========================================
-# CONFIGURATION - SET YOUR API KEY HERE
-# ==========================================
+from dotenv import load_dotenv
+import os
 
+load_dotenv()  # loads from .env
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+if not GROQ_API_KEY:
+    raise ValueError("Missing GROQ_API_KEY in environment")
+  # Replace with your actual API key
 INDEX_DIRECTORY = "college_rag_index"
 EMBEDDING_MODEL = "all-mpnet-base-v2"
 
