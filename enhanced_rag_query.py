@@ -12,7 +12,7 @@ import re
 # ==========================================
 # CONFIGURATION - SET YOUR API KEY HERE
 # ==========================================
-GROQ_API_KEY = "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"  # Replace with your actual API key
+GROQ_API_KEY = "your api key"  # Replace with your actual API key
 INDEX_DIRECTORY = "college_rag_index"
 EMBEDDING_MODEL = "all-mpnet-base-v2"
 
